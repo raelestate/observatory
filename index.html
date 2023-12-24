@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Observatory</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent p-2 pt-3">
+        <div class="container-fluid">
+            <a id="rael-text" class="navbar-brand" href="https://raelestate.github.io/My-Portfolio/">RaelEstate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list" style="color:aliceblue"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a id="hover-nav" class="nav-link active" aria-current="page" href="#APOD">APOD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="hover-nav" class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container p-5 fade-up">
+        <div class="container d-flex justify-content-center">
+            <h1 class="display-6 text-white">
+                Welcome to the
+            </h1>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <h1 id="nasa-text" class="display-1">Observatory</h1>
+        </div>
+    </div>
+    <section id="APOD">
+        <div class="container pt-5 fade-up">
+            <div class="container d-flex justify-content-center">
+                <h1 class="display-3">NASA's Astronomy Picture of the Day</h1>
+            </div>
+        </div>
+        <div class="container p-5 pb-4 fade-up">
+            <div class="container d-flex justify-content-center">
+                <h5 id="time-to-next-apod"></h5>
+            </div>
+        </div>
+        <div class="container fade-up">
+            <div class="container d-flex justify-content-center">
+                <div class="card bg-transparent text-custom-white" style="width: 25rem;">
+                    <img id="apod-image" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                        <h5 id="apod-title" class="fw-bolder"></h5>
+                        <p id="apod-explanation" class="fw-lighter"></p>
+                        <p id="apod-date"></p>
+                        <a href="" id="view-full-resolution" class="btn btn-primary">View Full Resolution</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
