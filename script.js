@@ -70,7 +70,7 @@ function a() {
     "6267675YHxfcL",
     "Time to next APOD: ",
     "click",
-    "�!��1��n����^.��Hp��v�*{W��B",
+    "MWT2LpkCLiq6GIL1GmT2BZu4WhTXv6R22o4rrmEi",
     "Error fetching data:",
     "147321gCKPnN",
     "3674412eYDxkV",
