@@ -9,9 +9,9 @@
 .page_nav ul li a{padding: 0 30px;margin: 0 8px;font-size: 23px;font-weight: bold;text-decoration: none;}
 
 #middle_area{padding: 0 10px;}
-.mid_con{min-height: 400px;text-align: center;}
+.mid_con{min-height: 200px;text-align: center;}
 .mid_info{max-width: 780px;margin: 70px auto;width: 100%;}
-.mid_info h2{font-size: 70px;}
+.mid_info h2{font-size: 92px;}
 .mid_info h2 span{display: block;}
 
 #main_area{padding: 0 10px;}
@@ -21,12 +21,12 @@
 .main_info h2 span{}
 .main_info p{}
 
-main{max-width: 1134px;width: 100%;margin: auto;}
+main{max-width: 1286px;width: 100%;background: rgba(0, 0, 0, .6);height: 1126px;margin: auto;border-radius: 42px;}
 main figure{}
 main figure img{width: 500px;border-radius: 31px;border: 9px solid rgba(26, 9, 9, 0.42);}
-main h2{}
-main p{}
-main a{}
+main h2{font-size: 47px;padding: 39px 0 0;}
+main p{margin: 0 200px;text-align: justify;}
+main a{background: #0662bd;width: 100%;max-width: 254px;display: block;margin: auto;height: 50px;line-height: 50px;text-decoration: none;border-radius: 15px;}
 
 footer{}
 .footer_top{}
